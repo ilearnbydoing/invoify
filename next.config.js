@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: "/invoice-generator",
-    assetPrefix: "/invoice-generator",
     experimental: {
         serverComponentsExternalPackages: ["puppeteer-core"],
     },
