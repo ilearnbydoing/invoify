@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: "/invoice-generator",
+    assetPrefix: "/invoice-generator",
+    trailingSlash: false,  // Prevents Next.js from adding extra slashes
     experimental: {
         serverComponentsExternalPackages: ["puppeteer-core"],
     },
